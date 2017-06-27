@@ -1,0 +1,25 @@
+package com.juint;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+	HashMap<String,Integer> h = new HashMap<>();
+	h.put("demo", 1);
+	h.put("refr", 2);
+	h.put("ujnh", 3);
+	h.put("asxd", 4);
+	System.out.println(h);
+	Set<String> s = h.keySet();
+	System.out.println(s);
+	Set<Entry<String, Integer>> s1 = h.entrySet();
+	System.out.println(s1);
+Collection<Integer> c = h.values();
+System.out.println(c);
+	}
+
+}

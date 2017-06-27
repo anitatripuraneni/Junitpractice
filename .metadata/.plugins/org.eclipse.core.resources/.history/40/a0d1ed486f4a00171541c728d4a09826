@@ -1,0 +1,25 @@
+package com.juint;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SortedSetDemo {
+
+	public static void main(String[] args) {
+
+SortedSet<String> s = new TreeSet<>();
+s.add("h");
+s.add("g");
+s.add("c");
+s.add("d");
+s.add("a");
+s.add("f");
+s.add("b");
+s.add("h");
+System.out.println(s);
+System.out.println(s.headSet("g"));
+System.out.println(s.headSet("d"));
+
+	}
+
+}

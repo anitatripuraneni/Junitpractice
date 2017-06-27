@@ -1,0 +1,20 @@
+package com.juint;
+
+import java.util.Hashtable;
+
+public class HashTableBox {
+
+	public static void main(String[] args) {
+		Hashtable<Box,String> h = new Hashtable<>();
+		h.put(new Box(5), "A");
+		h.put(new Box(2), "B");
+		h.put(new Box(6), "F");
+		h.put(new Box(15), "Z");
+		h.put(new Box(23), "E");
+		h.put(new Box(16), "U");
+		h.put(new Box(11), "C");
+		h.put(new Box(19), "Q");
+		
+	}
+
+}

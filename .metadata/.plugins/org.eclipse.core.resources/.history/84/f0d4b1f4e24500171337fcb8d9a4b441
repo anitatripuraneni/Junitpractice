@@ -1,0 +1,25 @@
+package com.juint;
+
+import java.util.List;
+
+public class MyApp {
+	public void setValues(List<String> values){
+		
+		values.add("cat");
+		values.add("loin");
+		values.add("tiger");
+		values.add("fox");
+		values.add("elephant");
+		values.add("bear");
+		values.add("cat");
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

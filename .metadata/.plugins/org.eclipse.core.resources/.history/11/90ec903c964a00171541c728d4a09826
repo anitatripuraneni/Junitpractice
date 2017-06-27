@@ -1,0 +1,15 @@
+package com.juint;
+
+import java.util.TreeSet;
+
+public class StudentTreeSet {
+
+	public static void main(String[] args) {
+		TreeSet<Student> t = new TreeSet<>();
+		t.add(new Student(8,"Anita"));
+		t.add(new Student(3,"Nani"));
+		System.out.println(t.toString());
+
+	}
+
+}

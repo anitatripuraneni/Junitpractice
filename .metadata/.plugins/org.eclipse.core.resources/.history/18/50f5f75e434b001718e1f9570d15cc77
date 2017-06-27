@@ -1,0 +1,21 @@
+package com.juint;
+
+public class Box {
+	private int i;
+
+	public Box(int i) {
+		super();
+		this.i = i;
+	}
+
+	@Override
+	public String toString() {
+		return "Box [i=" + i + "]";
+	}
+
+	public int hashCode(){
+		return i%9;
+	}
+	
+
+}

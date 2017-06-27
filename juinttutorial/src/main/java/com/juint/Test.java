@@ -1,0 +1,10 @@
+package com.juint;
+
+public class Test {
+	   public static void main(String args[]) { 
+StringBuffer s1 = new StringBuffer("Hi");
+StringBuffer s2 = new StringBuffer("Hi");
+System.out.println(s1==(s2));
+	   }
+	}
+

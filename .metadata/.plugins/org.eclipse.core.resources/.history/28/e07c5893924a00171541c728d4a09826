@@ -1,0 +1,26 @@
+package com.juint;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class ReverseTreeSetDemo implements Comparator<String> {
+	
+
+	public static void main(String[] args) {
+		TreeSet<String> t = new TreeSet<>();
+		t.add("ganga");
+		t.add("yeild");
+		t.add("Radha");
+		t.add("Anita");
+		t.add("Zebra");
+		t.add("Nancy");
+		t.add("Mooni");
+
+	}
+
+	@Override
+	public int compare(String o1, String o2) {
+		return -o1.compareTo(o2);
+	}
+
+}

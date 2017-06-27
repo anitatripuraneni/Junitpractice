@@ -1,0 +1,21 @@
+package com.juint;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class StudentTreeSet implements Comparator<Student>{
+
+	public static void main(String[] args) {
+		TreeSet<Student> t = new TreeSet<>();
+		t.add(new Student(8,"Anita"));
+		t.add(new Student(3,"Nani"));
+		System.out.println(t);
+
+	}
+
+	@Override
+	public int compare(Student o1, Student o2) {
+		return o1.getName().compareTo(o2.getName());
+	}
+
+}

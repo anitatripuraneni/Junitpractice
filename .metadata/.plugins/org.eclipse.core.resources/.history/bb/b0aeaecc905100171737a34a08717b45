@@ -1,0 +1,11 @@
+package com.juint;
+
+public class Test {
+
+  private Test(){
+	  System.out.println("in default");
+  }
+  private Test(int i){
+	  System.out.println("in parameterized");
+  }
+}

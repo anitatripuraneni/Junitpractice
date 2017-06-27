@@ -1,0 +1,12 @@
+package com.juint;
+
+import java.util.TreeSet;
+
+public class StudentTreeSet {
+
+	public static void main(String[] args) {
+		TreeSet<Student> t = new TreeSet<>();
+
+	}
+
+}

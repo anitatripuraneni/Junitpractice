@@ -1,0 +1,17 @@
+package com.juint;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		TreeSet<StringBuffer> t = new TreeSet<>();
+		t.add(new StringBuffer("A"));
+		t.add(new StringBuffer("V"));
+		t.add(new StringBuffer("Q"));
+		t.add(new StringBuffer("D"));
+		System.out.println(t);
+
+	}
+
+}

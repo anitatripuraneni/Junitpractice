@@ -1,0 +1,27 @@
+package com.juint;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class StringBufferTreeSet implements Comparator<StringBuffer> {
+
+	public static void main(String[] args) {
+		TreeSet<StringBuffer> t = new TreeSet<>(new StringBufferTreeSet());
+		t.add(new StringBuffer("Ganga"));
+		t.add(new StringBuffer("Yeild"));
+		t.add(new StringBuffer("Radha"));
+		t.add(new StringBuffer("Anita"));
+		t.add(new StringBuffer("Zebra"));
+		t.add(new StringBuffer("Nancy"));
+		t.add(new StringBuffer("Mooni"));
+		System.out.println(t);
+
+	}
+
+	@Override
+	public int compare(StringBuffer o1, StringBuffer o2) {
+		return o1.toString().compareTo(o2.toString());
+		
+	}
+
+}

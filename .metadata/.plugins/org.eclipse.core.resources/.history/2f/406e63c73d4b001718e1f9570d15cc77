@@ -1,0 +1,19 @@
+package com.juint;
+
+import java.util.Comparator;
+import java.util.TreeMap;
+
+public class TreeMapComparator implements Comparator<String> {
+
+	public static void main(String[] args) {
+		TreeMap<String,Integer> t = new TreeMap<>(new TreeMapComparator());
+
+	}
+
+	@Override
+	public int compare(String o1, String o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.juint;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
+public class PriorityQueueCompartor implements Comparator<Integer> {
+
+	public static void main(String[] args) {
+		PriorityQueue<Integer> pq = new PriorityQueue<>(15, new PriorityQueueCompartor());
+
+	}
+
+}
